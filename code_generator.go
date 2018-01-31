@@ -5,7 +5,6 @@ import (
 	"math"
 )
 
-// unecessary change
 func main() {
 
 	N := 60
