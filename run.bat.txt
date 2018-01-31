@@ -1,0 +1,2 @@
+cd %~dp0 && ghdl -s atan.vhd atan_tb.vhd && ghdl -a atan.vhd atan_tb.vhd && ghdl -e atan_tb && ghdl -r atan_tb --vcd=out.vcd --stop-time=100us
+pause
